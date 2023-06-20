@@ -2,14 +2,15 @@
 
 /**
  * _islower - Checks for lowercase character
+ *
+ * c - Character parameter
  */
 int _islower(int c)
 {
 	if (islower(c))
 	{
 		return (1);
-	} else
-	{
-		return (0);
 	}
+
+	return (0);
 }
