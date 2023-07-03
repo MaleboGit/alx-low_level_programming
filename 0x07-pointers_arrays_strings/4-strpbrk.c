@@ -4,7 +4,7 @@
  * _strpbrk - searches a string for any of a set of bytes
  *
  * @s: pointer to a char
- * @accpet: pointer to a char
+ * @accept: pointer to a char
  *
  * Return: strpbrk(s, accept)
  */
