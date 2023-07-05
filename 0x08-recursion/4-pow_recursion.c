@@ -7,9 +7,16 @@
  * @x: int parameter
  * @y: int parameter
  *
- * Return: pow(x, y)
+ * Return: -1 or pow(x, y)
  */
 int _pow_recursion(int x, int y)
 {
-	return (pow(x, y));
+	if (y < 0)
+	{
+		return (-1);
+	}
+	else
+	{
+		return (pow(x, y));
+	}
 }
