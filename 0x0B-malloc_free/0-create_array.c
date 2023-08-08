@@ -11,6 +11,12 @@
 char *create_array(unsigned int size, char c)
 {
 	char *memo = malloc(sizeof(c) * size);
+	int i;
+
+	for (i = 0; i < size; i++)
+	{
+		memo[i] = c;
+	}
 
 	if (size == 0 || memo == NULL)
 	{
